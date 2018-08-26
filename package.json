@@ -1,0 +1,17 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+"scripts": {
+ "build-css": "node-sass main.scss main.css",
+ "watch-css": "nodemon -e scss -x \"npm run build-css\""
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.3",
+    "nodemon": "^1.18.3"
+  }
+}
